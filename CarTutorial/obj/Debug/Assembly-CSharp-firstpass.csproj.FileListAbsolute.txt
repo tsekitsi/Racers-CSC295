@@ -1,0 +1,2 @@
+H:\Grinnell-CS29501-Racers\CarTutorial\obj\Debug\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
+H:\Grinnell-CS29501-Racers\CarTutorial\obj\Debug\Assembly-CSharp-firstpass.dll
