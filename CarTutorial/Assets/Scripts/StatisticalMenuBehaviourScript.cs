@@ -102,11 +102,20 @@ public class StatisticalMenuBehaviourScript : MonoBehaviour {
         double speedInMph = 0.621371 * speed;
         Debug.Log(speedInMph);
 
-        int topSpeed = (int)speedInMph;
+		int topSpeed = (int)(speedInMph * 0.4);// trancet these speed because the are too high for our track
         // Store value on a constante "score"
         PlayerPrefs.SetInt("MaxSpeed", topSpeed);
 
-        Application.LoadLevel("RaceScene");
+		if(selectedCarIndex == 0){
+			Application.LoadLevel("nissan-scene");
+		}
+		else if(selectedCarIndex == 1){
+			Application.LoadLevel("lambo-scene");
+		}
+		else if(selectedCarIndex == 2){
+			Application.LoadLevel("f1-track");
+		}
+        
 
     }
 }

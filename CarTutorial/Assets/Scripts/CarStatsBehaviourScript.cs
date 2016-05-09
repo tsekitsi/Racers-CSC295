@@ -18,6 +18,7 @@ public class CarStatsBehaviourScript : MonoBehaviour {
 
         CarController.MaxSpeed = speed;
         Debug.Log(CarController.MaxSpeed);
+		Debug.Log ("the calculated max speed is"); 
     }
 
     // Update is called once per frame
