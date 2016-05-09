@@ -8,6 +8,7 @@ public class PlayTimer : MonoBehaviour {
     public int minutes = 0;
     private bool isFirstLap = true;
     private int lapCount = 1; 
+	private GUIStyle guiStyle = new GUIStyle();
 
     private IEnumerator PTimer()
     {
@@ -37,6 +38,8 @@ public class PlayTimer : MonoBehaviour {
 
     void OnGUI()
     {
-        GUI.Label(new Rect(50, 50, 500, 50), "Laptime = " + minutes.ToString() + ":" + seconds.ToString());
+		guiStyle.fontSize = 50; 
+		guiStyle.normal.textColor = Color.white;
+		GUI.Label(new Rect(50, 50, 500, 500), "Laptime = " + minutes.ToString() + ":" + seconds.ToString(), guiStyle);
     }
 }
