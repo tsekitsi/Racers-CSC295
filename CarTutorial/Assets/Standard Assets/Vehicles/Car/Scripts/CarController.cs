@@ -109,7 +109,7 @@ namespace UnityStandardAssets.Vehicles.Car
             CarController cc = GetComponent(typeof(CarController)) as CarController;
             cc.enabled = false;
             yield return new WaitForSeconds(5);
-            Application.LoadLevel("PostRace");
+            Application.LoadLevel("StatisticalVariableSelectionScene");
         }
 
 		void Update() {
