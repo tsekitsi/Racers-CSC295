@@ -2,8 +2,9 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+#if UNITY_EDITOR
 using UnityEditor.SceneManagement; 
-
+#endif 
 namespace UnityStandardAssets.Vehicles.Car
 {
     internal enum CarDriveType
