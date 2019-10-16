@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "Racers-CSC295.data.unityweb",
+"asmCodeUrl": "Racers-CSC295.asm.code.unityweb",
+"asmMemoryUrl": "Racers-CSC295.asm.memory.unityweb",
+"asmFrameworkUrl": "Racers-CSC295.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}
